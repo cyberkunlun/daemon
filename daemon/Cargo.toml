@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "daemon"
+version = "0.1.0"
+
+[dependencies]
+dj_log = {git = "https://gitlab.cyberkl.com/dongjian/dj_util.git", version = "0.3"}
+log = "0.4"
+tokio = {version = "1.25", features = ["rt-multi-thread", "macros", "sync"]}

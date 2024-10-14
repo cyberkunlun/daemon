@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "app_a"
+version = "0.1.0"
+
+[dependencies]
+dj_log = {git = "https://gitlab.cyberkl.com/dongjian/dj_util.git", version = "0.3"}
+log = "0.4"
